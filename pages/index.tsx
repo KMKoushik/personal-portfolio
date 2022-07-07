@@ -110,9 +110,9 @@ const Home: NextPage = () => {
           <Link href="mailto:hey@rakesh.one">
             <a className="border-white/90 py-1 font-medium text-white hover:border-b">hey@rakesh.one</a>
           </Link>
-          {' or '}
+          {' or DM me on '}
           <Link href="https://twitter.com/Rakesh_UP_">
-            <a className="border-white/90 py-1 font-medium text-white hover:border-b">DM me on Twitter</a>
+            <a className="border-white/90 py-1 font-medium text-white hover:border-b">Twitter</a>
           </Link>
         </div>
       </main>
