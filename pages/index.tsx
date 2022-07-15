@@ -50,7 +50,7 @@ const Home: NextPage = () => {
           <Link href="https://interestcal.com/">
             <a className="mt-3 block rounded-sm bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
               <h1 className="text-xl font-semibold lg:text-3xl">InterestCal</h1>
-              <p className="mt-2 text-white/70">Free, fast, and secure financial calculators</p>
+              <p className="mt-2 text-white/70">Free, fast, and modern financial calculators</p>
             </a>
           </Link>
 
