@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 body {
+  font-family: 'Inter var', 'system-ui';
+  font-feature-settings: 'salt', 'cv11', 'ccmp', 'kern';
   overscroll-behavior-y: none;
   text-rendering: optimizeLegibility;
   @apply antialiased;
