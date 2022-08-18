@@ -40,9 +40,7 @@ const Home: NextPage = () => {
           <Link href="https://www.squeethportal.xyz/">
             <a className="mt-3 block rounded-xl bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
               <h1 className="text-xl font-semibold lg:text-3xl">Squeeth Portal</h1>
-              <p className="mt-2 text-white/70">
-                An alternate UI to interact with squeeth contracts.
-              </p>
+              <p className="mt-2 text-white/70">An alternate UI to interact with squeeth contracts.</p>
             </a>
           </Link>
 
@@ -60,7 +58,9 @@ const Home: NextPage = () => {
             <a className="mt-3 block rounded-xl bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
               <h1 className="text-xl font-semibold lg:text-3xl">Opyn</h1>
               <div className="mt-2 text-lg font-medium lg:text-xl">Full-stack developer</div>
-              <p className="mt-2 text-white/70">Opyn is building DeFi-native derivatives and options infrastructure in DeFi</p>
+              <p className="mt-2 text-white/70">
+                Opyn is building DeFi-native derivatives and options infrastructure in DeFi
+              </p>
               <div className="mt-6 text-xs font-medium uppercase text-white/60">Mar 2021 - Current</div>
             </a>
           </Link>
@@ -69,9 +69,7 @@ const Home: NextPage = () => {
             <a className="mt-3 block rounded-xl bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
               <h1 className="text-xl font-semibold lg:text-3xl">Testomat.io</h1>
               <div className="mt-2 text-lg font-medium lg:text-xl">Software developer</div>
-              <p className="mt-2 text-white/70">
-                Test management system for automated tests
-              </p>
+              <p className="mt-2 text-white/70">Test management system for automated tests</p>
               <div className="mt-6 text-xs font-medium uppercase text-white/60">Feb 2020 - Mar 2021</div>
             </a>
           </Link>
@@ -89,9 +87,7 @@ const Home: NextPage = () => {
             <a className="mt-3 block rounded-xl bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
               <h1 className="text-xl font-semibold lg:text-3xl">Zoho</h1>
               <div className="mt-2 text-lg font-medium lg:text-xl">Member Technical Staff</div>
-              <p className="mt-2 text-white/70">
-                Manage and secure devices, apps and data from a unified console.
-              </p>
+              <p className="mt-2 text-white/70">Manage and secure devices, apps and data from a unified console.</p>
               <div className="mt-6 text-xs font-medium uppercase text-white/60">May 2017 - Oct 2019</div>
             </a>
           </Link>
