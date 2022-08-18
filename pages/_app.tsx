@@ -7,7 +7,7 @@ import Script from 'next/script'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-NWPYGWKR9Y" strategy="afterInteractive" />
+      {/* <Script src="https://www.googletagmanager.com/gtag/js?id=G-NWPYGWKR9Y" strategy="afterInteractive" />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
           gtag('config', 'G-NWPYGWKR9Y');
         `}
-      </Script>
+      </Script> */}
       <Component {...pageProps} />
     </>
   )
