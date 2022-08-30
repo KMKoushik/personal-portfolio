@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             </a>
           </Link>
 
-          <Link href="https://github.com/KMKoushik/big-n">
+          <Link href="https://chrome.google.com/webstore/detail/big-n-convert-wei-to-ethe/poaklelpbnkhfeompcgdaabmhmhodepn">
             <a className="mt-3 block rounded-xl bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
               <h1 className="text-xl font-semibold lg:text-3xl">Big-N</h1>
               <p className="mt-2 text-white/70">
