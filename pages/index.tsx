@@ -37,18 +37,27 @@ const Home: NextPage = () => {
 
         <div className="py-14 lg:w-1/2 lg:py-20">
           <h2 className="text-sm font-semibold uppercase text-white/60 lg:mb-5">Projects</h2>
-          <Link href="https://www.squeethportal.xyz/">
+          <Link href="https://docsai.app/" target="_blank">
+            <a className="mt-3 block rounded-xl bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
+              <h1 className="text-xl font-semibold lg:text-3xl">DocsAI</h1>
+              <p className="mt-2 text-white/70">Creates AI support agents with your documents.</p>
+            </a>
+          </Link>
+          <Link href="https://www.squeethportal.xyz/" target="_blank">
             <a className="mt-3 block rounded-xl bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
               <h1 className="text-xl font-semibold lg:text-3xl">Squeeth Portal</h1>
               <p className="mt-2 text-white/70">An alternate UI to interact with squeeth contracts.</p>
             </a>
           </Link>
 
-          <Link href="https://chrome.google.com/webstore/detail/big-n-convert-wei-to-ethe/poaklelpbnkhfeompcgdaabmhmhodepn">
+          <Link
+            href="https://chrome.google.com/webstore/detail/big-n-convert-wei-to-ethe/poaklelpbnkhfeompcgdaabmhmhodepn"
+            target="_blank"
+          >
             <a className="mt-3 block rounded-xl bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
               <h1 className="text-xl font-semibold lg:text-3xl">Big-N</h1>
               <p className="mt-2 text-white/70">
-                An browser extension to quickly convert Big numbers (wei) to Ether and vice versa
+                A browser extension to quickly convert Big numbers (wei) to Ether and vice versa
               </p>
             </a>
           </Link>
