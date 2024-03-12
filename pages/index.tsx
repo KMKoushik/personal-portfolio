@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const Home: NextPage = () => {
@@ -17,7 +18,16 @@ const Home: NextPage = () => {
       <main className="mx-auto w-11/12 max-w-screen-xl lg:flex lg:justify-between">
         <div className="flex flex-col justify-between pt-12 lg:sticky lg:top-0 lg:h-screen lg:w-1/3 lg:pt-20 lg:pb-32">
           <div>
-            <h1 className="text-5xl font-bold lg:text-6xl">KM Koushik</h1>
+            <div className="flex items-center justify-center lg:justify-start ">
+              <Image
+                src="https://avatars.githubusercontent.com/u/24666922?v=4"
+                height={150}
+                width={150}
+                alt="profile pic"
+                className="  rounded-full"
+              ></Image>
+            </div>
+            <h1 className="mt-10 text-5xl font-bold lg:text-6xl">KM Koushik</h1>
             <h2 className="mt-2 text-xl font-semibold lg:text-2xl">Full-Stack Developer</h2>
             <p className="mt-4 text-base text-white/70 lg:w-10/12 lg:text-lg">
               Software developer at Opyn. I also work on projects that solves my problems
@@ -37,6 +47,12 @@ const Home: NextPage = () => {
 
         <div className="py-14 lg:w-1/2 lg:py-20">
           <h2 className="text-sm font-semibold uppercase text-white/60 lg:mb-5">Projects</h2>
+          <Link href="https://splitpro.app/" target="_blank">
+            <a className="mt-3 block rounded-xl bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
+              <h1 className="text-xl font-semibold lg:text-3xl">Splitpro</h1>
+              <p className="mt-2 text-white/70">Open source Splitwise alternative</p>
+            </a>
+          </Link>
           <Link href="https://docsai.app/" target="_blank">
             <a className="mt-3 block rounded-xl bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
               <h1 className="text-xl font-semibold lg:text-3xl">DocsAI</h1>
