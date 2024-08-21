@@ -47,6 +47,12 @@ const Home: NextPage = () => {
 
         <div className="py-14 lg:w-1/2 lg:py-20">
           <h2 className="text-sm font-semibold uppercase text-white/60 lg:mb-5">Projects</h2>
+          <Link href="https://unsend.dev/" target="_blank">
+            <a className="mt-3 block rounded-xl bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
+              <h1 className="text-xl font-semibold lg:text-3xl">Unsend</h1>
+              <p className="mt-2 text-white/70">Open source alternative to Resend,Sendgrid, Postmark etc.</p>
+            </a>
+          </Link>
           <Link href="https://splitpro.app/" target="_blank">
             <a className="mt-3 block rounded-xl bg-canvas/80 p-6 transition-all lg:p-10 lg:hover:scale-[103%]">
               <h1 className="text-xl font-semibold lg:text-3xl">Splitpro</h1>
